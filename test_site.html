@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <style>
+        body {
+            background-color: #222831;
+        }
+
+        text {
+            color: #EEEEEE
+        }
+        h1 {
+            color: #EEEEEE
+        }
+        h3 {
+            color: #00ADB5
+        }
+
+        p {
+            color: #EEEEEE
+        }
+
+        time {
+            color: #EEEEEE
+        }
+
+        label {
+            color: #EEEEEE
+        }
+
+        a {
+            text-decoration: none;
+            color: #6c7481
+        }
+
+        #foot {
+            color: #EEEEEE
+        }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>This is a test html site</h1> <br>
+      <a href="About.html">About</a> &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="Contant.html">Contact</a> &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="How_it_works?.html">How it works?</a>
+    </nav>
+    <main>
+      <table border="1px;" border-color: black; width="100%" valign="top">
+        <tr>
+          <td width="70%">
+            <h3>Article 1</h3>
+            <time><small>12/10/2024</small></time>
+            <div>
+              <img
+                src="../images/20220721_141520.jpg"
+                alt="snowmobile.jpg"
+                width="20%"
+              />
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              repellat est necessitatibus nostrum ipsum ipsa id quibusdam quae
+              natus veritatis aliquid, inventore officiis nemo odio.
+            </p>
+
+            <a href="article1.html">Read More</a>
+
+            <hr />
+
+            <h3>Article 2</h3>
+            <time><small>12/10/2024</small></time>
+            <div>
+                <video 
+                    src="../videos/snowmobile.mp4" 
+                    muted
+                    loop 
+                    controls
+                    width="20%"
+                </video>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              repellat est necessitatibus nostrum ipsum ipsa id quibusdam quae
+              natus veritatis aliquid, inventore officiis nemo odio.
+            </p>
+
+            <hr />
+
+            <h3>Article 3</h3>
+            <time><small>12/10/2024</small></time>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              repellat est necessitatibus nostrum ipsum ipsa id quibusdam quae
+              natus veritatis aliquid, inventore officiis nemo odio.
+            </p>
+          </td>
+          <td width="25%" valign="top">
+            <h3>Sign up form</h3>
+            <form method="GET" action="">
+              <label>firstname</label> <br/>
+              <input
+                type="text"
+                name="firstname"
+                id="f_name"
+                placeholder="firstname"
+                required="required"
+                autofocus="true"
+                width="100%"
+              />
+
+              <br />
+
+              <label>lastname</label> <br/>
+              <input
+                type="text"
+                name="lastname"
+                id="l_name"
+                placeholder="lastname"
+                required="required"
+              />
+
+              <br />
+
+              <label>email</label> <br>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@mail.com"
+                required="required"
+              />
+
+              <br />
+
+              <label>password</label> <br>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="XXXXXXXX"
+                required="required"
+              />
+
+              <br />
+
+              <label>Choose one</label>
+              <input type="radio" name="radio_option" value="1" /> 1
+              <input type="radio" name="radio_option" value="2" /> 2
+              <input type="radio" name="radio_option" value="3" /> 3
+
+              <br />
+
+              <label for="t1">Textarea</label>
+                <textarea 
+                name="textarea" 
+                id="t1" 
+                cols="30"
+                rows="10"
+                class=""
+                >
+                </textarea>
+
+                <div>&nbsp;</div>
+
+                <select name="selected_data" id="" class="">
+                    <option value="" selected="selected" disabled="disabled">--Select Item--</option>
+                    <option value="1">option 1</option>
+                    <option value="2">option 2</option>
+                    <option value="3">option 3</option>
+                </select>
+
+                <br>
+
+                <div>&nbsp;</div>
+
+              <button type="submit" value="Click to submit">
+                Click to submit
+              </button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </main>
+    <hr />
+    <footer>
+      <div>
+        <a href="https://youtube.com">Youtube</a>
+        <a href="https://google.com">Google</a>
+        <a href="https://facebook.com">facebook</a>
+      </div>
+
+      <div id="foot">&copy; <em>2028 Birchco.</em></div>
+    </footer>
+  </body>
+</html>

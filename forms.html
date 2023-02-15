@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="150 words" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="name, url, twitter, etc" />
+    <meta name="owner" content="" />
+    <meta name="url" content="http://www.websiteaddress.com" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form method="GET" action="meta_tags.html">
+      <div>
+        <label for="firstname"> Input: Text</label>
+        <input type="text" name="firstname" placeholder="firstname" />
+        <input type="text" name="lastname" placeholder="lastname" />
+      </div>
+
+      <div>
+        Checkbox
+        <input required="required" type="checkbox" value="3" name="checkbox" />
+      </div>
+
+      <div>
+        <label>Radio button</label>
+        <input type="radio" name="radio_field" value="1" /> 1
+        <input type="radio" name="radio_field" value="2" /> 2
+        <input type="radio" name="radio_field" value="3" /> 3
+      </div>
+
+      <div>
+        Date
+        <input type="date" name="date" />
+      </div>
+
+      <div>
+        Email
+        <input required="required" type="email" name="email" />
+      </div>
+
+      <div>
+        Hidden
+        <input type="hidden" name="hidden" value="is_hidden" />
+      </div>
+
+      <div>
+        Number field
+        <input
+          required="required"
+          type="number"
+          name="number"
+          step="1"
+          min="10"
+          max="30"
+        />
+      </div>
+
+      <div>
+        Password
+        <input
+          required="required"
+          type="password"
+          name="password"
+          placeholder="password"
+        />
+      </div>
+
+      <div>
+        URL
+        <input type="URL" name="url" value="youtube.com" />
+      </div>
+
+      <div>
+        File upload
+        <input type="file" name="file" value="" />
+      </div>
+
+      <div>
+        <input type="submit" name="submit" value="Click here!" />
+      </div>
+    </form>
+
+    <hr />
+
+    <form method="GET" action="">
+      <label for="t1">Textarea</label>
+      <textarea
+        name="textarea"
+        id="t1"
+        cols="30"
+        rows="10"
+        required="required"
+        class=""
+        autofocus="autofocus"
+        minlength="10"
+        maxlength="100"
+        placeholder="Type your message here"
+      >
+      </textarea>
+
+      <input type="submit" value="click here to submit" />
+    </form>
+
+    <hr />
+
+    <form method="GET" action="">
+      <select name="selected_item" id="" class="" required="required">
+        <option value="" selected="selected" disabled="disabled">
+          ---Select Item---
+        </option>
+        <option value="1st_item">1</option>
+        <option value="2nd_item" disabled="disabled">2</option>
+        <option value="3rd_item">3</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
